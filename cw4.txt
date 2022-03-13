@@ -1,0 +1,39 @@
+Klasy:
+-Addres
+-Person
+-Student
+-Professor
+
+class Person
+String name;
+String surname;
+int age;
+
+metoda string IntroduceYourself(); - może przyjmować name i surname(stringi) oraz zwracać inf. o imieniu i nazwisku(string)
+
+class Addres
+
+String street;
+String city;
+String state;
+String postalCode;
+String country;
+
+metoda Validate Output As Label - przyjmuje powyższe dane(string) i na ich podstawie zwraca wartość boolean
+
+class Student
+
+int studentNumber
+
+double avgMark
+
+metoda IsEligibleToEnroll - przyjmuje obiekt klasy student i na bazie instrukcji wewnątrz ciała zwraca boolean’a
+
+metoda GetSeminarsTaken - może zawierać puste nawiasy () i na bazie operacji wewnątrz ciała metody zwracać wartość typu int
+
+Profesor
+
+double salary
+
+
+
